@@ -11,7 +11,6 @@ const Review = () => {
             {
                 products.map(product =><CustromerReview key={product.id} product={product}></CustromerReview>)
             }
-
             </div>
         </div>
     );

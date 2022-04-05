@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useProducts from '../../hooks/useProducts';
 import CustromerReview from '../CustomerReview/CustromerReview';
 
@@ -6,6 +7,7 @@ import CustromerReview from '../CustomerReview/CustromerReview';
 const Home = () => {
     const [products,setProducts] = useProducts()
     const pro = products.slice(0,3)
+    const navigate = useNavigate()
     return (
         <div className='container'>
             <div className='row'>
@@ -20,12 +22,14 @@ const Home = () => {
                     <img src="./img/laptop.jpg" style={{width:'600px'}} alt="" />
                 </div>
             </div>
-            <h1 className='text-center text-info fw-bold'>Customer Review {pro.length}</h1>
+            <h1 className='text-center text-info fw-bold'>Customer Review ({pro.length})</h1>
             <div className='d-flex flex-wrap'>
             {
                 pro.map(product =><CustromerReview key={product.id} product={product}></CustromerReview>)
             }
-
+            </div>
+            <div className='d-flex justify-content-center'>
+                <button onClick={()=>{navigate('/review')}} className='btn btn-info fw-bold'>Show All Review</button>
             </div>
 
         </div>

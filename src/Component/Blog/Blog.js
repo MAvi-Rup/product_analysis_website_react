@@ -2,8 +2,9 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div>
-            <h1>Blog Component</h1>
+        <div className='container'>
+            <blockquote>Question No -1</blockquote>
+            
         </div>
     );
 };
