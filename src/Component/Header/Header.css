@@ -1,0 +1,15 @@
+.nav-navbar-class{
+    display: flex;
+    /* width: 200vh; */
+    justify-content: center;
+    background-color: blanchedalmond;
+    height: 50px;
+    align-items: center;
+}
+.nav-navbar-class a{
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    margin: 20px 20px;
+
+}
