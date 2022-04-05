@@ -15,7 +15,7 @@ const Home = () => {
                     <div>
                         <h1 className='text-info fw-bold'>Find Your Desire Gadgets</h1>
                         <h5>Find The Best Solution To Get The Review Of All Products. Here You can see all the authentic review of your customer. If you have any dout you can directly contact our customer through this link.</h5>
-                        <button className='btn btn-info fw-bold'>Live Contact</button>
+                        <button onClick={()=>{navigate('/about')}} className='btn btn-info fw-bold'>Live Contact</button>
                     </div>
                 </div>
                 <div className='col-12 col-md-6'>
