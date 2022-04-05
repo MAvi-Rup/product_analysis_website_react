@@ -9,7 +9,7 @@ const Header = () => {
             <CustomLink to='/review'>Review</CustomLink>
             <CustomLink to='/dashboard'>Dashborad</CustomLink>
             <CustomLink to='/blog'>Blog</CustomLink>
-            <CustomLink to='/about'>About</CustomLink>
+            <CustomLink to='/about'>Contact Us</CustomLink>
         </div>
     );
 };
