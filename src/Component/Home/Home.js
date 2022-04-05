@@ -22,13 +22,13 @@ const Home = () => {
                     <img src="./img/laptop.jpg" style={{width:'600px'}} alt="" />
                 </div>
             </div>
-            <h1 className='text-center text-info fw-bold'>Customer Review ({pro.length})</h1>
+            <h1 className='text-center text-info fw-bold m-3'>Customer Review ({pro.length})</h1>
             <div className='d-flex flex-wrap'>
             {
                 pro.map(product =><CustromerReview key={product.id} product={product}></CustromerReview>)
             }
             </div>
-            <div className='d-flex justify-content-center'>
+            <div className='d-flex justify-content-center m-5'>
                 <button onClick={()=>{navigate('/review')}} className='btn btn-info fw-bold'>Show All Review</button>
             </div>
 
