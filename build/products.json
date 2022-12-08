@@ -1,0 +1,75 @@
+[
+  {
+    "id": "1",
+    "review":"I used this device for a long time. It sis too good to used and I get the best quality service from the device",
+    "device":"Awei Black King",
+    "name": "Abraham Linkon",
+    "img": "img/aweib.jpg",
+    "rating": "4"
+  },
+  {
+    "id": "2",
+    "name": "Adam Eve",
+    "review":"This is one of the best Headphone I ever used. This change my conception of the brabed headphone.",
+    "device":"Beats Beast",
+    "img": "img/beats.jpg",
+    "rating": "4.5"
+  },
+  {
+    "id": "3",
+    "name": "Rusty Row",
+    "device":"One Plus BudZ",
+    "review":"This is a mid range airbud I used it for almost 1 year. Comparing with its price its a good choice to buy.",
+    "img": "img/budz.jpg",
+    "rating": "4"
+
+  },
+  {
+    "id": "4",
+    "name": "John Parker",
+    "review":"One Plus Budpro",
+    "device":"This is the one plus airbuds I am searching for. Good sound quality. Noise Cancelation is very good. Base and the sound mixute is perfect and battery backup too good.",
+    "img": "img/budpro.jpg",
+    "rating": "4.5"
+  },
+  {
+    "id": "5",
+    "name": "Jhonty Roades",
+    "device":"Dell Inspiration",
+    "review":"Dell laptop is alaways a good choice for me. But their new addition just awesome. I very much love this device.",
+    "img": "img/Dell.jpg",
+    "rating": "4"
+  },
+  {
+    "id": "6",
+    "name": "Harry Porter",
+    "review":"I used this for only one month its a low budget headphone. Sound quality is not so good. You can rarely use it for only 3 monthes.",
+    "device":"T-27 Buds",
+    "img": "img/t-27.jpg",
+    "rating": "3"
+  },
+  {
+    "id": "7",
+    "name": "Sara Issaq",
+    "review":"Its a prmeium device to use. Very much light weight and easy to carry. And super fast and comfortable.",
+    "device":"Macbook Pro",
+    "img": "img/macpro.jpg",
+    "rating": "4.5"
+  },
+  {
+    "id": "8",
+    "name": "Sametha Patel",
+    "review":"Its sound quality is too good and its bluetooth connectivity is also too good. Very good device to use. Love this device.",
+    "device":"Airpod",
+    "img": "img/airpod.jpg",
+    "rating": "4.5"
+  },
+  {
+    "id": "9",
+    "name": "Joe Doe",
+    "review":"X-Box Controller",
+    "device":"Its a very handy and comfortable gaming controller. Love thgis controller.",
+    "img": "img/xbox.jpg",
+    "rating": "4"
+  }
+]
